@@ -1,9 +1,9 @@
 ;;; form-feed.el --- Display ^L glyphs as horizontal lines
 
-;; Copyright (C) 2014-2016 Vasilij Schneidermann <v.schneidermann@gmail.com>
+;; Copyright (C) 2014 Vasilij Schneidermann <mail@vasilij.de>
 
-;; Author: Vasilij Schneidermann <v.schneidermann@gmail.com>
-;; URL: https://github.com/wasamasa/form-feed
+;; Author: Vasilij Schneidermann <mail@vasilij.de>
+;; URL: https://depp.brause.cc/form-feed
 ;; Keywords: faces
 ;; Version: 0.2.2
 
@@ -34,8 +34,7 @@
 ;;
 ;;     (add-hook 'emacs-lisp-mode-hook 'form-feed-mode)
 
-;; See the README for more info:
-;; https://github.com/wasamasa/form-feed
+;; See the README for more info: https://depp.brause.cc/form-feed
 
 ;;; Code:
 
