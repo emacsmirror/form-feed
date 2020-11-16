@@ -24,6 +24,13 @@ Enable the minor mode manually with `M-x form-feed` or in a hook:
 
     (add-hook 'emacs-lisp-mode-hook 'form-feed-mode)
 
+You can also enable it globally:
+
+    (global-form-feed-mode)
+
+This allows customizing what modes it should and shouldn't be enabled
+in, see `form-feed-include-modes` and `form-feed-exclude-modes`.
+
 ## Internals
 
 There are a bunch of ways of attacking the problem, one of the more
