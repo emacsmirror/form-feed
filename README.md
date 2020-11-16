@@ -12,8 +12,8 @@ docstring for possible options.
 
 ## Installation
 
-Install from [Marmalade] or [MELPA (stable)] with
-`M-x package-install RET form-feed RET`.
+Install from [MELPA (stable)] with `M-x package-install RET form-feed
+RET`.
 
 `form-feed` is also available as a recipe in [GNU Guix].  Install with
 `guix install emacs-form-feed`.
@@ -68,7 +68,6 @@ puzzling bug.
   additionally to that it's not trivial to clean them up afterwards.
 
 [image]: img/scrot.png
-[Marmalade]: https://marmalade-repo.org/
 [MELPA (stable)]: http://melpa.org/
 [GNU Guix]: https://guix.gnu.org/
 [magic-buffer]: https://github.com/sabof/magic-buffer
