@@ -5,7 +5,7 @@
 ;; Author: Vasilij Schneidermann <mail@vasilij.de>
 ;; URL: https://depp.brause.cc/form-feed
 ;; Keywords: faces
-;; Version: 0.2.2
+;; Version: 0.2.3
 
 ;; This file is NOT part of GNU Emacs.
 
