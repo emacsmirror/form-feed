@@ -156,9 +156,7 @@ window."
     (form-feed--remove-font-lock-keywords))
 
   (when (called-interactively-p 'interactive)
-    (if (fboundp 'font-lock-flush)
-        (font-lock-flush)
-      (font-lock-fontify-buffer))))
+    (font-lock-ensure)))
 
 ;;;###autoload
 (define-globalized-minor-mode global-form-feed-mode
